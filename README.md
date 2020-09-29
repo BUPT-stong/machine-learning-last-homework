@@ -12,3 +12,9 @@ fashion_mnist_forest.py 训练随机森林
 fashion_mnist_tf.py 训练深度神经网络
 
 plot—result.py进行画图用的
+
+#展示一下图片结果
+准确率：
+![image](https://github.com/BUPT-stong/machine-learning-last-homework/blob/master/result/new-acy.png)
+时间比较：
+![image](https://github.com/BUPT-stong/machine-learning-last-homework/blob/master/result/new-time.png)
