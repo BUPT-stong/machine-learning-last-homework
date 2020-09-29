@@ -48,6 +48,7 @@ if __name__ == "__main__":
             keras.layers.Dense(100, activation=tf.nn.relu), 
             keras.layers.Dense(10, activation=tf.nn.softmax)
             ])
+    print(model.summary()) #展示模型
 
     #编译模型
     model.compile(optimizer=tf.train.AdamOptimizer(),
